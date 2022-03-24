@@ -1,0 +1,20 @@
+.small-flag {
+    width: 50px;
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+.derecha {
+    margin-left: 5%;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
+
+h2 {
+    animation: bounce;
+    animation-duration: 2s;
+}

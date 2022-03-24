@@ -1,0 +1,7 @@
+<h2>Búsquedas</h2>
+  <hr>
+  <ul class="list-group">
+    <li class="list-group-item animate__animated" #itemList1 (mouseover)="addCss(itemList1)" (mouseout)="removeCss(itemList1)" routerLink="" routerLinkActive="active bg-success" [routerLinkActiveOptions]="{ exact: true }">Buscar país</li>   <!-- [routerLinkActiveOptions]="{ exact: true }": Impide que este elemento quede marcado permanentemente -->
+    <li class="list-group-item animate__animated" #itemList2 (mouseover)="addCss(itemList2)" (mouseout)="removeCss(itemList2)" routerLink="region" routerLinkActive="active bg-success">Buscar región</li>
+    <li class="list-group-item animate__animated" #itemList3 (mouseover)="addCss(itemList3)" (mouseout)="removeCss(itemList3)" routerLink="capital" routerLinkActive="active bg-success">Buscar capital</li>         <!-- routerLink="nombreRuta": Lleva a la ruta indicada sin recargar la página (importado por RouterModule )-->
+  </ul>
